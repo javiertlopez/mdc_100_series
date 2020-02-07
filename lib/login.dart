@@ -37,7 +37,6 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
             SizedBox(height: 120.0),
-            // TODO: Add TextField widgets (101)
             // [Name]
             TextField(
               decoration: InputDecoration(
@@ -54,6 +53,25 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Password',
               ),
               obscureText: true,
+            ),
+            ButtonBar(
+              // TODO: Add a beveled rectangular border to CANCEL (103)
+              children: <Widget>[
+                FlatButton(
+                  child: Text('CANCEL'),
+                  onPressed: () {
+                    // TODO: Clear the text fields (101)
+                  },
+                ),
+                // TODO: Add an elevation to NEXT (103)
+                // TODO: Add a beveled rectangular border to NEXT (103)
+                RaisedButton(
+                  child: Text('NEXT'),
+                  onPressed: () {
+                    // TODO: Show the next page (101)
+                  },
+                ),
+              ],
             ),
             // TODO: Wrap Username with AccentColorOverride (103)
             // TODO: Remove filled: true values (103)
