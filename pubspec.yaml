@@ -1,5 +1,6 @@
 name: Shrine
 description: Learn the basics of using Material Components by building a simple app with core components.
+version: 1.0.0+1
 
 dependencies:
   flutter:
